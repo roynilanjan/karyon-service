@@ -8,9 +8,7 @@ import io.reactivex.netty.protocol.http.server.RequestHandler;
 import netflix.karyon.transport.http.health.HealthCheckEndpoint;
 import rx.Observable;
 
-/**
- * @author Nitesh Kant
- */
+
 public class RxNettyHandler implements RequestHandler<ByteBuf, ByteBuf> {
 
     private final String healthCheckUri;
